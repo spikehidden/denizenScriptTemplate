@@ -1,0 +1,51 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Feature
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Describe the solution you'd like
+      placeholder: A clear and concise description of what you want to happen.
+      validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Describe alternatives you've considered
+      placeholder: A clear and concise description of any alternative solutions or features you've considered.
+      validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: Add any other context or screenshots about the feature request here.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Last step
+      description: By submitting you're in good believe that there wasn't a similar feature request already opened.
+      options:
+        - label: I agree to the above terms.
+          required: true
