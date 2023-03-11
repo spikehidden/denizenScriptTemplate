@@ -12,8 +12,8 @@ body:
       label: Description of the Feature
       description: Is your feature request related to a problem? Please describe.
       placeholder: 
-  validations:
-    required: true
+    validations:
+      required: true
 
   - type: textarea
     id: solution
